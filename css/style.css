@@ -1,0 +1,123 @@
+.heading,
+.button {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.heading h1 {
+    font-size: 80px;
+}
+
+.heading h4 small {
+    font-size: 30px;
+    color: black;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+#news {
+    overflow-y: scroll;
+    padding-top: 25px;
+    font-weight: bold;
+    background: black;
+}
+
+.mainNews {
+    padding-top: 0 !important;
+}
+
+.mainNews h2 {
+    color: white;
+    background: #08086D;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.noResutls {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.noResutls img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.noResutls p {
+    font-size: 25px;
+    color: white;
+}
+
+.btn-news {
+    margin-top: 20px;
+}
+
+.home {
+    background-image: url("../img/World-Map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+@media screen and (max-height: 1000px) {
+    .main {
+        height: 962px;
+    }
+    .Map {
+        height: 100%;
+    }
+    .mainMap {
+        background-color: orchid;
+        height: 100%;
+    }
+    .mainNews {
+        height: 100%;
+    }
+}
+
+@media screen and (max-height: 690px) {
+     .main {
+        height: 682px;
+    }
+    .Map {
+        height: 102%;
+    }
+    .mainMap {
+        background-color: orchid;
+        height: 100%;
+    }
+    .mainNews {
+        height: 100%;
+    }
+}
